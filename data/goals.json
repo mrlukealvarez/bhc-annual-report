@@ -3,48 +3,64 @@
     "label": "Year 1 Revenue",
     "current": 0,
     "target": 66920000,
-    "unit": "dollars"
+    "unit": "dollars",
+    "category": "revenue",
+    "icon": "DollarSign"
   },
   {
     "label": "Year 5 Revenue",
     "current": 0,
     "target": 262840000,
-    "unit": "dollars"
+    "unit": "dollars",
+    "category": "revenue",
+    "icon": "TrendingUp"
   },
   {
     "label": "CRM Accounts",
     "current": 18786,
     "target": 50000,
-    "unit": "accounts"
+    "unit": "accounts",
+    "category": "reach",
+    "icon": "Users"
   },
   {
     "label": "Partner Cities",
     "current": 9,
     "target": 50,
-    "unit": "cities"
+    "unit": "cities",
+    "category": "reach",
+    "icon": "MapPin"
   },
   {
     "label": "Staff (AI-Equivalent)",
     "current": 255,
     "target": 875,
-    "unit": "people"
+    "unit": "people",
+    "category": "infrastructure",
+    "icon": "Cpu"
   },
   {
     "label": "Campus Development",
     "current": 15,
     "target": 50,
-    "unit": "acres"
+    "unit": "acres",
+    "category": "infrastructure",
+    "icon": "Building"
   },
   {
     "label": "Entities Operational",
     "current": 13,
     "target": 20,
-    "unit": "entities"
+    "unit": "entities",
+    "category": "infrastructure",
+    "icon": "Layers"
   },
   {
     "label": "Regional Economic Impact",
     "current": 0,
     "target": 170000000,
-    "unit": "dollars"
+    "unit": "dollars",
+    "category": "reach",
+    "icon": "Globe"
   }
 ]

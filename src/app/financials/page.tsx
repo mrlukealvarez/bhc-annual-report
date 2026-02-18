@@ -1,13 +1,13 @@
-import Link from "next/link";
+import financialsData from "@/../data/financials.json";
+import entitiesData from "@/../data/entities.json";
+import { FinancialsClient } from "./financials-client";
+
+export const metadata = {
+  title: "Financial Breakdown — BHC Annual Report",
+  description:
+    "Complete financial overview of the Black Hills Consortium ecosystem",
+};
 
 export default function FinancialsPage() {
-  return (
-    <main className="min-h-screen p-8 max-w-7xl mx-auto">
-      <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
-        &larr; Back to Home
-      </Link>
-      <h1 className="text-4xl font-bold mb-4">Financial Breakdown</h1>
-      <p className="text-gray-600">Coming soon — Sprint 231+</p>
-    </main>
-  );
+  return <FinancialsClient financials={financialsData} entities={entitiesData} />;
 }
