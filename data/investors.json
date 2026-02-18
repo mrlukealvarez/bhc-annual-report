@@ -1,21 +1,30 @@
 {
   "capitalRaise": 52000000,
+  "thesis": [
+    "13-entity flywheel creates compounding value across technology, media, education, real estate, and community",
+    "GrowWise SaaS platform addresses $39B cannabis market with 27,656 pipeline businesses",
+    "21% perpetual equity distribution creates automatic downstream funding",
+    "AI-native operations: 51 staff output equivalent of 255 with AI leverage",
+    "First-mover advantage in rural economic development technology"
+  ],
+  "useOfFunds": [
+    { "category": "GrowWise Product Development", "percentage": 35, "amount": 18200000 },
+    { "category": "Sales & Go-to-Market", "percentage": 25, "amount": 13000000 },
+    { "category": "Campus Infrastructure", "percentage": 15, "amount": 7800000 },
+    { "category": "Entity Operations", "percentage": 15, "amount": 7800000 },
+    { "category": "Working Capital & Reserve", "percentage": 10, "amount": 5200000 }
+  ],
   "tiers": [
-    {
-      "name": "Seed",
-      "range": "$25K-$100K"
-    },
-    {
-      "name": "Growth",
-      "range": "$100K-$500K"
-    },
-    {
-      "name": "Institutional",
-      "range": "$500K-$5M"
-    },
-    {
-      "name": "Strategic",
-      "range": "$5M+"
-    }
-  ]
+    { "name": "Seed", "range": "$25K-$100K", "benefits": ["Quarterly reports", "Annual meeting access", "BHC merchandise pack"], "color": "#22c55e" },
+    { "name": "Growth", "range": "$100K-$500K", "benefits": ["Monthly reports", "Advisory board eligibility", "Campus visit + tour", "Entity naming opportunities"], "color": "#3b82f6" },
+    { "name": "Institutional", "range": "$500K-$5M", "benefits": ["Weekly updates", "Board observer seat", "3-day campus experience", "Co-investment in entities"], "color": "#a855f7" },
+    { "name": "Strategic", "range": "$5M+", "benefits": ["Direct board seat", "Entity co-ownership options", "Strategic partnership integration", "Custom reporting dashboard"], "color": "#ec4899" }
+  ],
+  "returnProjections": {
+    "valuationY1Low": 523000000,
+    "valuationY1High": 783000000,
+    "valuationY5Low": 1920000000,
+    "valuationY5High": 2890000000,
+    "revenueMultiple": "8x-12x"
+  }
 }

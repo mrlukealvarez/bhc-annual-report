@@ -1,13 +1,12 @@
-import Link from "next/link";
+import investorsData from "@/../data/investors.json";
+import { InvestorsClient } from "./investors-client";
+
+export const metadata = {
+  title: "Investment Opportunity — BHC Annual Report",
+  description:
+    "Explore the $52M capital raise opportunity with the Black Hills Consortium",
+};
 
 export default function InvestorsPage() {
-  return (
-    <main className="min-h-screen p-8 max-w-7xl mx-auto">
-      <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
-        &larr; Back to Home
-      </Link>
-      <h1 className="text-4xl font-bold mb-4">Investor Tiers</h1>
-      <p className="text-gray-600">Coming soon — Sprint 231+</p>
-    </main>
-  );
+  return <InvestorsClient data={investorsData} />;
 }

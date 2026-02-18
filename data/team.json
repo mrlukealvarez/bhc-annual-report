@@ -1,12 +1,24 @@
 {
   "staff": 51,
   "aiEquivalent": 255,
+  "aiMultiplier": 5,
   "departments": [
-    "Executive",
-    "Engineering",
-    "Sales",
-    "Operations",
-    "Marketing",
-    "Education"
-  ]
+    { "name": "Executive", "headcount": 8, "color": "#1a237e" },
+    { "name": "Engineering", "headcount": 15, "color": "#22c55e" },
+    { "name": "Sales", "headcount": 10, "color": "#3b82f6" },
+    { "name": "Operations", "headcount": 8, "color": "#f97316" },
+    { "name": "Marketing", "headcount": 6, "color": "#a855f7" },
+    { "name": "Education", "headcount": 4, "color": "#8b5cf6" }
+  ],
+  "benefits": [
+    { "label": "Minimum Salary", "value": "$145K", "description": "All positions, all entities" },
+    { "label": "Car Allowance", "value": "$1,500/mo", "description": "Field sales representatives" },
+    { "label": "Campus Perks", "value": "Full Access", "description": "15-acre Grow Campus, Custer SD" },
+    { "label": "AI Leverage", "value": "5x Output", "description": "Every role augmented with AI agents" }
+  ],
+  "fullyLoadedCosts": {
+    "technical": 179000,
+    "fieldSales": 229000,
+    "executive": 272000
+  }
 }
