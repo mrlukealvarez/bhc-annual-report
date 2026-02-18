@@ -1,0 +1,65 @@
+{
+  "competitorName": "Elevate Rapid City",
+  "competitorType": "501(c)(6) Economic Development Corporation",
+  "dataPoints": [
+    {
+      "metric": "Annual Revenue/Budget",
+      "bhcValue": "$66.92M",
+      "competitorValue": "$7.17M",
+      "winner": "bhc",
+      "note": "9.3x more revenue"
+    },
+    {
+      "metric": "Staff",
+      "bhcValue": "51 (255 AI-equivalent)",
+      "competitorValue": "14",
+      "winner": "bhc",
+      "note": "18.2x effective output"
+    },
+    {
+      "metric": "Entities/Programs",
+      "bhcValue": "13 legal entities",
+      "competitorValue": "1 organization",
+      "winner": "bhc"
+    },
+    {
+      "metric": "CRM/Membership",
+      "bhcValue": "18,786 accounts",
+      "competitorValue": "106 investors",
+      "winner": "bhc",
+      "note": "177x"
+    },
+    {
+      "metric": "Capital Raise",
+      "bhcValue": "$52M",
+      "competitorValue": "$5.93M",
+      "winner": "bhc",
+      "note": "8.8x"
+    },
+    {
+      "metric": "Revenue Streams",
+      "bhcValue": "60+",
+      "competitorValue": "7",
+      "winner": "bhc"
+    },
+    {
+      "metric": "Technology",
+      "bhcValue": "AI-native, 721+ agents",
+      "competitorValue": "Basic website + PDFs",
+      "winner": "bhc"
+    },
+    {
+      "metric": "Campus",
+      "bhcValue": "15 acres, $2M+",
+      "competitorValue": "Office space",
+      "winner": "bhc"
+    },
+    {
+      "metric": "Minimum Salary",
+      "bhcValue": "$145,000",
+      "competitorValue": "Not published",
+      "winner": "bhc"
+    }
+  ],
+  "summary": "BHC generates 9.3x more revenue with 18.2x effective output, operating 13 entities vs 1, with 177x the customer base."
+}

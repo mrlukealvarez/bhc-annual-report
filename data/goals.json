@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Year 1 Revenue",
+    "current": 0,
+    "target": 66920000,
+    "unit": "dollars"
+  },
+  {
+    "label": "Year 5 Revenue",
+    "current": 0,
+    "target": 262840000,
+    "unit": "dollars"
+  },
+  {
+    "label": "CRM Accounts",
+    "current": 18786,
+    "target": 50000,
+    "unit": "accounts"
+  },
+  {
+    "label": "Partner Cities",
+    "current": 9,
+    "target": 50,
+    "unit": "cities"
+  },
+  {
+    "label": "Staff (AI-Equivalent)",
+    "current": 255,
+    "target": 875,
+    "unit": "people"
+  },
+  {
+    "label": "Campus Development",
+    "current": 15,
+    "target": 50,
+    "unit": "acres"
+  },
+  {
+    "label": "Entities Operational",
+    "current": 13,
+    "target": 20,
+    "unit": "entities"
+  },
+  {
+    "label": "Regional Economic Impact",
+    "current": 0,
+    "target": 170000000,
+    "unit": "dollars"
+  }
+]

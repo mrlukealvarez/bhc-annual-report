@@ -1,0 +1,12 @@
+{
+  "staff": 51,
+  "aiEquivalent": 255,
+  "departments": [
+    "Executive",
+    "Engineering",
+    "Sales",
+    "Operations",
+    "Marketing",
+    "Education"
+  ]
+}

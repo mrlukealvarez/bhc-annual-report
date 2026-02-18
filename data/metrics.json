@@ -1,0 +1,20 @@
+{
+  "capitalRaise": 52000000,
+  "entities": 13,
+  "crmAccounts": 18786,
+  "revenueY1Floor": 66920000,
+  "revenueY1Ceiling": 439500000,
+  "revenueY5Floor": 262840000,
+  "revenueY5Ceiling": 1650000000,
+  "valuationY1Low": 523000000,
+  "valuationY1High": 783000000,
+  "valuationY5Low": 1920000000,
+  "valuationY5High": 2890000000,
+  "staff": 51,
+  "staffAIEquivalent": 255,
+  "campusAcres": 15,
+  "partnerCities": 9,
+  "sprintsCompleted": 230,
+  "agentsDeployed": 721,
+  "daysBuilding": 13
+}

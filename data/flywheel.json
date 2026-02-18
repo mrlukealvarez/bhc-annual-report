@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "id": "growwise",
+      "label": "GrowWise",
+      "value": "$59.1M",
+      "color": "#22c55e",
+      "description": "Cannabis SaaS revenue engine"
+    },
+    {
+      "id": "auric-labs",
+      "label": "Auric Labs",
+      "value": "$4.14M",
+      "color": "#ec4899",
+      "description": "7% equity from GrowWise accelerator deals"
+    },
+    {
+      "id": "seed-foundation",
+      "label": "Seed Foundation",
+      "value": "$4.14M",
+      "color": "#a855f7",
+      "description": "7% equity funds charitable programs"
+    },
+    {
+      "id": "bhc",
+      "label": "BHC",
+      "value": "$4.14M",
+      "color": "#1a237e",
+      "description": "7% equity funds consortium operations"
+    },
+    {
+      "id": "settle-the-west",
+      "label": "Settle the West",
+      "value": "Workers",
+      "color": "#06b6d4",
+      "description": "Brings remote workers to Black Hills"
+    },
+    {
+      "id": "pass-creek",
+      "label": "Pass Creek",
+      "value": "Housing",
+      "color": "#eab308",
+      "description": "Housing for relocated workers"
+    },
+    {
+      "id": "the-op",
+      "label": "THE OP",
+      "value": "Commerce",
+      "color": "#f97316",
+      "description": "Local spending by new residents"
+    },
+    {
+      "id": "outpost-media",
+      "label": "Outpost Media",
+      "value": "Content",
+      "color": "#3b82f6",
+      "description": "Documents everything, creates social proof"
+    }
+  ],
+  "connections": [
+    {
+      "from": "growwise",
+      "to": "auric-labs",
+      "label": "7% equity",
+      "type": "equity"
+    },
+    {
+      "from": "growwise",
+      "to": "seed-foundation",
+      "label": "7% equity",
+      "type": "equity"
+    },
+    {
+      "from": "growwise",
+      "to": "bhc",
+      "label": "7% equity",
+      "type": "equity"
+    },
+    {
+      "from": "bhc",
+      "to": "settle-the-west",
+      "label": "Funds marketing",
+      "type": "funds"
+    },
+    {
+      "from": "settle-the-west",
+      "to": "pass-creek",
+      "label": "Workers need housing",
+      "type": "workers"
+    },
+    {
+      "from": "pass-creek",
+      "to": "the-op",
+      "label": "Residents spend locally",
+      "type": "customers"
+    },
+    {
+      "from": "the-op",
+      "to": "outpost-media",
+      "label": "Content fodder",
+      "type": "content"
+    },
+    {
+      "from": "outpost-media",
+      "to": "growwise",
+      "label": "Attracts investors",
+      "type": "content"
+    }
+  ]
+}

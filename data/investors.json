@@ -1,0 +1,21 @@
+{
+  "capitalRaise": 52000000,
+  "tiers": [
+    {
+      "name": "Seed",
+      "range": "$25K-$100K"
+    },
+    {
+      "name": "Growth",
+      "range": "$100K-$500K"
+    },
+    {
+      "name": "Institutional",
+      "range": "$500K-$5M"
+    },
+    {
+      "name": "Strategic",
+      "range": "$5M+"
+    }
+  ]
+}
