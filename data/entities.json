@@ -25,8 +25,23 @@
       "Head of AI",
       "Head of Compliance"
     ],
-    "flywheelRole": "Revenue engine \u2014 funds 21% perpetual flywheel (7% each to Auric Labs, Seed Foundation, BHC)",
-    "flywheelConnection": "Revenue flows to Auric Labs (accelerator equity), Seed Foundation (charitable programs), and BHC (consortium operations)"
+    "flywheelRole": "Revenue engine — funds 21% perpetual flywheel (7% each to Auric Labs, Seed Foundation, BHC)",
+    "flywheelConnection": "Revenue flows to Auric Labs (accelerator equity), Seed Foundation (charitable programs), and BHC (consortium operations)",
+    "revenueStreams": [
+      { "name": "SaaS Subscriptions", "estimatedY1": 35460000, "estimatedY5": 110030000, "status": "core", "category": "saas" },
+      { "name": "POS & Payments", "estimatedY1": 8865000, "estimatedY5": 27508000, "status": "core", "category": "saas" },
+      { "name": "Compliance Module", "estimatedY1": 5910000, "estimatedY5": 18338000, "status": "core", "category": "saas" },
+      { "name": "AI Credits", "estimatedY1": 4137000, "estimatedY5": 12837000, "status": "new", "category": "saas" },
+      { "name": "Marketplace Commission", "estimatedY1": 2364000, "estimatedY5": 7335000, "status": "new", "category": "services" },
+      { "name": "API Access Fees", "estimatedY1": 1773000, "estimatedY5": 5502000, "status": "planned", "category": "saas" },
+      { "name": "Data Analytics", "estimatedY1": 591000, "estimatedY5": 1833000, "status": "planned", "category": "saas" }
+    ],
+    "metrics": [
+      { "label": "Pipeline", "value": 27656 },
+      { "label": "Target ARPU", "value": 2499, "prefix": "$" },
+      { "label": "LTV:CAC Ratio", "value": 32.8, "suffix": ":1" },
+      { "label": "Market Share Target", "value": 15, "suffix": "%" }
+    ]
   },
   {
     "slug": "outpost-media",
@@ -52,8 +67,22 @@
       "Social Media Manager",
       "Video Editor"
     ],
-    "flywheelRole": "Content engine \u2014 documents everything, creates social proof, attracts investors",
-    "flywheelConnection": "Success stories from all entities feed back into content, which attracts more investors and customers"
+    "flywheelRole": "Content engine — documents everything, creates social proof, attracts investors",
+    "flywheelConnection": "Success stories from all entities feed back into content, which attracts more investors and customers",
+    "revenueStreams": [
+      { "name": "Sponsorships", "estimatedY1": 438000, "estimatedY5": 2652000, "status": "core", "category": "media" },
+      { "name": "Content Licensing", "estimatedY1": 292000, "estimatedY5": 1768000, "status": "core", "category": "media" },
+      { "name": "Studio Production", "estimatedY1": 292000, "estimatedY5": 1768000, "status": "new", "category": "services" },
+      { "name": "Ad Revenue", "estimatedY1": 219000, "estimatedY5": 1326000, "status": "core", "category": "media" },
+      { "name": "Publication Sales", "estimatedY1": 146000, "estimatedY5": 884000, "status": "new", "category": "media" },
+      { "name": "Podcast Revenue", "estimatedY1": 73000, "estimatedY5": 441000, "status": "new", "category": "media" }
+    ],
+    "metrics": [
+      { "label": "Media Channels", "value": 9 },
+      { "label": "Shows", "value": 32 },
+      { "label": "Content Pieces/Yr", "value": 730, "suffix": "+" },
+      { "label": "Entities Served", "value": 13 }
+    ]
   },
   {
     "slug": "seed-foundation",
@@ -78,8 +107,21 @@
       "Programs Manager",
       "Development Coordinator"
     ],
-    "flywheelRole": "Community anchor \u2014 receives 7% GrowWise equity, funds charitable programs",
-    "flywheelConnection": "Charitable programs build community goodwill, attract talent, and create PR that benefits all entities"
+    "flywheelRole": "Community anchor — receives 7% GrowWise equity, funds charitable programs",
+    "flywheelConnection": "Charitable programs build community goodwill, attract talent, and create PR that benefits all entities",
+    "revenueStreams": [
+      { "name": "Donations", "estimatedY1": 489000, "estimatedY5": 3572000, "status": "core", "category": "donations" },
+      { "name": "Grants", "estimatedY1": 489000, "estimatedY5": 3572000, "status": "core", "category": "donations" },
+      { "name": "Corporate Sponsors", "estimatedY1": 326000, "estimatedY5": 2382000, "status": "core", "category": "donations" },
+      { "name": "Fundraiser Events", "estimatedY1": 163000, "estimatedY5": 1191000, "status": "new", "category": "events" },
+      { "name": "7% GrowWise Equity", "estimatedY1": 163000, "estimatedY5": 1192000, "status": "core", "category": "donations" }
+    ],
+    "metrics": [
+      { "label": "Programs Funded", "value": 8 },
+      { "label": "Community Impact", "value": 170, "prefix": "$", "suffix": "M+" },
+      { "label": "Scholarships/Yr", "value": 50, "suffix": "+" },
+      { "label": "Grant Recipients", "value": 25 }
+    ]
   },
   {
     "slug": "seed-academy",
@@ -104,8 +146,20 @@
       "Curriculum Developer",
       "Enrollment Manager"
     ],
-    "flywheelRole": "Talent pipeline \u2014 trains workforce for all BHC entities and partner businesses",
-    "flywheelConnection": "Trained workers fill roles across BHC entities; graduates become customers, mentors, and community leaders"
+    "flywheelRole": "Talent pipeline — trains workforce for all BHC entities and partner businesses",
+    "flywheelConnection": "Trained workers fill roles across BHC entities; graduates become customers, mentors, and community leaders",
+    "revenueStreams": [
+      { "name": "Tuition & Certification", "estimatedY1": 424000, "estimatedY5": 5396000, "status": "core", "category": "services" },
+      { "name": "AI Consulting", "estimatedY1": 318000, "estimatedY5": 4047000, "status": "core", "category": "services" },
+      { "name": "VIP Training", "estimatedY1": 212000, "estimatedY5": 2698000, "status": "new", "category": "services" },
+      { "name": "Online Courses", "estimatedY1": 106000, "estimatedY5": 1350000, "status": "planned", "category": "saas" }
+    ],
+    "metrics": [
+      { "label": "Training Programs", "value": 12 },
+      { "label": "Annual Graduates", "value": 200, "suffix": "+" },
+      { "label": "Placement Rate", "value": 85, "suffix": "%" },
+      { "label": "Partner Employers", "value": 15 }
+    ]
   },
   {
     "slug": "the-cult",
@@ -129,8 +183,20 @@
       "Events Director",
       "Community Manager"
     ],
-    "flywheelRole": "Community builder \u2014 creates tribal identity and high-energy gathering points",
-    "flywheelConnection": "Events generate media content, attract investors, build community loyalty, and drive merchandise sales"
+    "flywheelRole": "Community builder — creates tribal identity and high-energy gathering points",
+    "flywheelConnection": "Events generate media content, attract investors, build community loyalty, and drive merchandise sales",
+    "revenueStreams": [
+      { "name": "Events & Conventions", "estimatedY1": 76400, "estimatedY5": 2270000, "status": "core", "category": "events" },
+      { "name": "Corporate Retreats", "estimatedY1": 57300, "estimatedY5": 1702500, "status": "new", "category": "events" },
+      { "name": "Investor Dinners", "estimatedY1": 38200, "estimatedY5": 1135000, "status": "new", "category": "events" },
+      { "name": "Virtual Events", "estimatedY1": 19100, "estimatedY5": 567500, "status": "planned", "category": "events" }
+    ],
+    "metrics": [
+      { "label": "Annual Events", "value": 6 },
+      { "label": "Attendees/Event", "value": 500, "suffix": "+" },
+      { "label": "Corporate Sponsors", "value": 10 },
+      { "label": "Cities", "value": 3 }
+    ]
   },
   {
     "slug": "the-op",
@@ -156,8 +222,20 @@
       "Merchandise Manager",
       "Events Coordinator"
     ],
-    "flywheelRole": "Street-level presence \u2014 local spending hub for residents and visitors",
-    "flywheelConnection": "New residents from Settle the West spend locally; cafe hosts events that feed Outpost Media content"
+    "flywheelRole": "Street-level presence — local spending hub for residents and visitors",
+    "flywheelConnection": "New residents from Settle the West spend locally; cafe hosts events that feed Outpost Media content",
+    "revenueStreams": [
+      { "name": "Food & Beverage", "estimatedY1": 200700, "estimatedY5": 879300, "status": "core", "category": "retail" },
+      { "name": "Merchandise", "estimatedY1": 111500, "estimatedY5": 488500, "status": "core", "category": "retail" },
+      { "name": "Branded Products", "estimatedY1": 89200, "estimatedY5": 390800, "status": "new", "category": "retail" },
+      { "name": "Catering & Events", "estimatedY1": 44600, "estimatedY5": 195400, "status": "planned", "category": "events" }
+    ],
+    "metrics": [
+      { "label": "Menu Items", "value": 45 },
+      { "label": "Merch SKUs", "value": 60 },
+      { "label": "Daily Customers", "value": 150, "suffix": "+" },
+      { "label": "Events/Month", "value": 4 }
+    ]
   },
   {
     "slug": "pass-creek",
@@ -181,8 +259,22 @@
       "Property Manager",
       "Leasing Agent"
     ],
-    "flywheelRole": "Housing provider \u2014 accommodates workers relocated by Settle the West",
-    "flywheelConnection": "Workers need housing; residents spend at THE OP and enroll kids at Seed Academy"
+    "flywheelRole": "Housing provider — accommodates workers relocated by Settle the West",
+    "flywheelConnection": "Workers need housing; residents spend at THE OP and enroll kids at Seed Academy",
+    "revenueStreams": [
+      { "name": "Property Leases", "estimatedY1": 251400, "estimatedY5": 4270500, "status": "core", "category": "real-estate" },
+      { "name": "Event Venue Rentals", "estimatedY1": 167600, "estimatedY5": 2847000, "status": "core", "category": "real-estate" },
+      { "name": "Short-Term Rentals", "estimatedY1": 167600, "estimatedY5": 2847000, "status": "new", "category": "real-estate" },
+      { "name": "Parking & Coworking", "estimatedY1": 125700, "estimatedY5": 2135250, "status": "new", "category": "real-estate" },
+      { "name": "Naming Rights", "estimatedY1": 83800, "estimatedY5": 1423500, "status": "planned", "category": "real-estate" },
+      { "name": "Property Management", "estimatedY1": 41900, "estimatedY5": 711750, "status": "core", "category": "services" }
+    ],
+    "metrics": [
+      { "label": "Properties", "value": 8 },
+      { "label": "Campus Acres", "value": 15 },
+      { "label": "Occupancy Target", "value": 90, "suffix": "%" },
+      { "label": "Housing Units", "value": 24 }
+    ]
   },
   {
     "slug": "settle-the-west",
@@ -206,8 +298,20 @@
       "Marketing Director",
       "Relocation Coordinator"
     ],
-    "flywheelRole": "Growth engine \u2014 brings remote workers to Black Hills, generating downstream demand",
-    "flywheelConnection": "Workers need housing (Pass Creek), have kids (Seed Academy), spend locally (THE OP), create stories (Outpost Media)"
+    "flywheelRole": "Growth engine — brings remote workers to Black Hills, generating downstream demand",
+    "flywheelConnection": "Workers need housing (Pass Creek), have kids (Seed Academy), spend locally (THE OP), create stories (Outpost Media)",
+    "revenueStreams": [
+      { "name": "Municipal Partnerships", "estimatedY1": 182000, "estimatedY5": 856000, "status": "core", "category": "services" },
+      { "name": "Consulting Fees", "estimatedY1": 136500, "estimatedY5": 642000, "status": "core", "category": "services" },
+      { "name": "Relocation Services", "estimatedY1": 91000, "estimatedY5": 428000, "status": "new", "category": "services" },
+      { "name": "Referral Commissions", "estimatedY1": 45500, "estimatedY5": 214000, "status": "new", "category": "services" }
+    ],
+    "metrics": [
+      { "label": "Partner Cities", "value": 9 },
+      { "label": "5-Year Impact", "value": 170, "prefix": "$", "suffix": "M+" },
+      { "label": "Relocations Target Y1", "value": 50 },
+      { "label": "States Covered", "value": 2 }
+    ]
   },
   {
     "slug": "auric-labs",
@@ -231,8 +335,20 @@
       "Managing Director",
       "Portfolio Manager"
     ],
-    "flywheelRole": "Innovation engine \u2014 receives 7% GrowWise equity, accelerates portfolio companies",
-    "flywheelConnection": "Portfolio companies create jobs, generate content, and expand the BHC technology ecosystem"
+    "flywheelRole": "Innovation engine — receives 7% GrowWise equity, accelerates portfolio companies",
+    "flywheelConnection": "Portfolio companies create jobs, generate content, and expand the BHC technology ecosystem",
+    "revenueStreams": [
+      { "name": "AI Agent Consulting", "estimatedY1": 120000, "estimatedY5": 856000, "status": "core", "category": "services" },
+      { "name": "Accelerator Fees", "estimatedY1": 90000, "estimatedY5": 642000, "status": "core", "category": "services" },
+      { "name": "Retainer Contracts", "estimatedY1": 60000, "estimatedY5": 428000, "status": "new", "category": "services" },
+      { "name": "Innovation Workshops", "estimatedY1": 30000, "estimatedY5": 214000, "status": "planned", "category": "events" }
+    ],
+    "metrics": [
+      { "label": "Portfolio Companies", "value": 5 },
+      { "label": "Equity Stake", "value": 7, "suffix": "%" },
+      { "label": "Mentor Network", "value": 30, "suffix": "+" },
+      { "label": "ARR Target", "value": 1.2, "prefix": "$", "suffix": "M" }
+    ]
   },
   {
     "slug": "bhc",
@@ -245,7 +361,7 @@
     "color": "#1a237e",
     "icon": "Shield",
     "category": "Community",
-    "revenueY1Floor": 290000,
+    "revenueY1Floor": 323000,
     "revenueY1Ceiling": 1930000,
     "revenueY5Floor": 2792000,
     "revenueY5Ceiling": 19900000,
@@ -259,8 +375,19 @@
       "Operations Director",
       "Development Director"
     ],
-    "flywheelRole": "Strategic brain \u2014 receives 7% GrowWise equity, coordinates all entities, manages capital raise",
-    "flywheelConnection": "Funds Settle the West marketing, provides shared services, manages investor relations for the entire ecosystem"
+    "flywheelRole": "Strategic brain — receives 7% GrowWise equity, coordinates all entities, manages capital raise",
+    "flywheelConnection": "Funds Settle the West marketing, provides shared services, manages investor relations for the entire ecosystem",
+    "revenueStreams": [
+      { "name": "Coordination Fees", "estimatedY1": 161500, "estimatedY5": 1396000, "status": "core", "category": "services" },
+      { "name": "Membership Dues", "estimatedY1": 96900, "estimatedY5": 837600, "status": "core", "category": "services" },
+      { "name": "Co-op Marketing", "estimatedY1": 64600, "estimatedY5": 558400, "status": "new", "category": "services" }
+    ],
+    "metrics": [
+      { "label": "Entities", "value": 13 },
+      { "label": "Capital Raise", "value": 52, "prefix": "$", "suffix": "M" },
+      { "label": "CRM Accounts", "value": 18786 },
+      { "label": "Staff Y1", "value": 51 }
+    ]
   },
   {
     "slug": "delegate-iq",
@@ -285,8 +412,21 @@
       "Lead Developer",
       "Project Manager"
     ],
-    "flywheelRole": "Services arm \u2014 provides digital services to local businesses and BHC entities",
-    "flywheelConnection": "Serves local businesses that benefit from Settle the West growth; builds technology for other BHC entities"
+    "flywheelRole": "Services arm — provides digital services to local businesses and BHC entities",
+    "flywheelConnection": "Serves local businesses that benefit from Settle the West growth; builds technology for other BHC entities",
+    "revenueStreams": [
+      { "name": "Monthly Retainers", "estimatedY1": 98400, "estimatedY5": 670000, "status": "core", "category": "services" },
+      { "name": "Project Work", "estimatedY1": 73800, "estimatedY5": 502500, "status": "core", "category": "services" },
+      { "name": "Training & Workshops", "estimatedY1": 36900, "estimatedY5": 251250, "status": "new", "category": "services" },
+      { "name": "Hosting & Maintenance", "estimatedY1": 24600, "estimatedY5": 167500, "status": "core", "category": "saas" },
+      { "name": "App Subscriptions", "estimatedY1": 12300, "estimatedY5": 83750, "status": "planned", "category": "saas" }
+    ],
+    "metrics": [
+      { "label": "Active Clients", "value": 15 },
+      { "label": "Avg Retainer", "value": 3500, "prefix": "$", "suffix": "/mo" },
+      { "label": "Projects/Yr", "value": 24 },
+      { "label": "NPS Score", "value": 72 }
+    ]
   },
   {
     "slug": "adventurecap",
@@ -301,7 +441,7 @@
     "category": "Community",
     "revenueY1Floor": 25000,
     "revenueY1Ceiling": 166000,
-    "revenueY5Floor": 200000,
+    "revenueY5Floor": 186000,
     "revenueY5Ceiling": 1330000,
     "status": "planning",
     "website": null,
@@ -309,8 +449,18 @@
     "keyRoles": [
       "Managing Partner"
     ],
-    "flywheelRole": "Tourism anchor \u2014 adventure tourism assets attract visitors and remote workers",
-    "flywheelConnection": "Tourism experiences attract Settle the West prospects; creates content for Outpost Media; events hosted at THE OP"
+    "flywheelRole": "Tourism anchor — adventure tourism assets attract visitors and remote workers",
+    "flywheelConnection": "Tourism experiences attract Settle the West prospects; creates content for Outpost Media; events hosted at THE OP",
+    "revenueStreams": [
+      { "name": "Booking Commissions", "estimatedY1": 17500, "estimatedY5": 130200, "status": "core", "category": "services" },
+      { "name": "Asset Management", "estimatedY1": 7500, "estimatedY5": 55800, "status": "planned", "category": "services" }
+    ],
+    "metrics": [
+      { "label": "Tourism Assets", "value": 3 },
+      { "label": "Annual Visitors", "value": 5000, "suffix": "+" },
+      { "label": "Partner Operators", "value": 4 },
+      { "label": "Booking Growth", "value": 25, "suffix": "%" }
+    ]
   },
   {
     "slug": "grow-campus",
@@ -319,13 +469,13 @@
     "legalName": "Grow Campus LLC",
     "type": "LLC",
     "tagline": "15-Acre Innovation Campus",
-    "description": "Grow Campus is the physical heart of BHC \u2014 a 15-acre property in Custer, SD valued at $2M+. It houses co-working spaces, event venues, the Auric Labs accelerator, and residential units. As the campus develops, it becomes the physical manifestation of the BHC vision.",
+    "description": "Grow Campus is the physical heart of BHC — a 15-acre property in Custer, SD valued at $2M+. It houses co-working spaces, event venues, the Auric Labs accelerator, and residential units. As the campus develops, it becomes the physical manifestation of the BHC vision.",
     "color": "#f59e0b",
     "icon": "Landmark",
     "category": "Real Estate",
     "revenueY1Floor": 846000,
     "revenueY1Ceiling": 5620000,
-    "revenueY5Floor": 15500000,
+    "revenueY5Floor": 14421000,
     "revenueY5Ceiling": 102900000,
     "status": "operational",
     "website": null,
@@ -334,7 +484,21 @@
       "Campus Director",
       "Facilities Manager"
     ],
-    "flywheelRole": "Physical hub \u2014 houses all entities, hosts events, provides co-working and residential space",
-    "flywheelConnection": "All entities benefit from shared campus space; events attract visitors; co-working space builds community"
+    "flywheelRole": "Physical hub — houses all entities, hosts events, provides co-working and residential space",
+    "flywheelConnection": "All entities benefit from shared campus space; events attract visitors; co-working space builds community",
+    "revenueStreams": [
+      { "name": "Property Leases", "estimatedY1": 253800, "estimatedY5": 4326300, "status": "core", "category": "real-estate" },
+      { "name": "Event Venue", "estimatedY1": 169200, "estimatedY5": 2884200, "status": "core", "category": "real-estate" },
+      { "name": "Short-Term Rentals", "estimatedY1": 169200, "estimatedY5": 2884200, "status": "new", "category": "real-estate" },
+      { "name": "Parking Revenue", "estimatedY1": 84600, "estimatedY5": 1442100, "status": "new", "category": "real-estate" },
+      { "name": "Coworking Memberships", "estimatedY1": 84600, "estimatedY5": 1442100, "status": "new", "category": "real-estate" },
+      { "name": "Naming Rights", "estimatedY1": 84600, "estimatedY5": 1442100, "status": "planned", "category": "real-estate" }
+    ],
+    "metrics": [
+      { "label": "Total Acres", "value": 15 },
+      { "label": "Campus Value", "value": 2, "prefix": "$", "suffix": "M+" },
+      { "label": "Building Sq Ft", "value": 25000, "suffix": "+" },
+      { "label": "Tenant Capacity", "value": 30 }
+    ]
   }
 ]

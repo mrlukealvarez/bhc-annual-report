@@ -29,7 +29,7 @@
       "name": "GrowWise",
       "revenueY1Floor": 59100000,
       "revenueY1Ceiling": 394500000,
-      "revenueY5Floor": 197100000,
+      "revenueY5Floor": 183383000,
       "revenueY5Ceiling": 1050000000,
       "shareOfY1Floor": 88.3
     },
@@ -38,7 +38,7 @@
       "name": "Outpost Media",
       "revenueY1Floor": 1460000,
       "revenueY1Ceiling": 9700000,
-      "revenueY5Floor": 9500000,
+      "revenueY5Floor": 8839000,
       "revenueY5Ceiling": 63000000,
       "shareOfY1Floor": 2.2
     },
@@ -47,7 +47,7 @@
       "name": "Seed Foundation",
       "revenueY1Floor": 1630000,
       "revenueY1Ceiling": 10800000,
-      "revenueY5Floor": 12800000,
+      "revenueY5Floor": 11909000,
       "revenueY5Ceiling": 85000000,
       "shareOfY1Floor": 2.4
     },
@@ -56,7 +56,7 @@
       "name": "Seed Academy",
       "revenueY1Floor": 1060000,
       "revenueY1Ceiling": 7000000,
-      "revenueY5Floor": 14500000,
+      "revenueY5Floor": 13491000,
       "revenueY5Ceiling": 96000000,
       "shareOfY1Floor": 1.6
     },
@@ -65,7 +65,7 @@
       "name": "THE CULT",
       "revenueY1Floor": 191000,
       "revenueY1Ceiling": 1270000,
-      "revenueY5Floor": 6100000,
+      "revenueY5Floor": 5675000,
       "revenueY5Ceiling": 40500000,
       "shareOfY1Floor": 0.3
     },
@@ -74,7 +74,7 @@
       "name": "THE OP",
       "revenueY1Floor": 446000,
       "revenueY1Ceiling": 2960000,
-      "revenueY5Floor": 2100000,
+      "revenueY5Floor": 1954000,
       "revenueY5Ceiling": 14000000,
       "shareOfY1Floor": 0.7
     },
@@ -83,7 +83,7 @@
       "name": "Pass Creek",
       "revenueY1Floor": 838000,
       "revenueY1Ceiling": 5570000,
-      "revenueY5Floor": 15300000,
+      "revenueY5Floor": 14235000,
       "revenueY5Ceiling": 101500000,
       "shareOfY1Floor": 1.3
     },
@@ -92,7 +92,7 @@
       "name": "Settle the West",
       "revenueY1Floor": 455000,
       "revenueY1Ceiling": 3020000,
-      "revenueY5Floor": 2300000,
+      "revenueY5Floor": 2140000,
       "revenueY5Ceiling": 15300000,
       "shareOfY1Floor": 0.7
     },
@@ -101,16 +101,16 @@
       "name": "Auric Labs",
       "revenueY1Floor": 300000,
       "revenueY1Ceiling": 2000000,
-      "revenueY5Floor": 2300000,
+      "revenueY5Floor": 2140000,
       "revenueY5Ceiling": 15300000,
       "shareOfY1Floor": 0.4
     },
     {
       "slug": "bhc",
       "name": "BHC",
-      "revenueY1Floor": 290000,
+      "revenueY1Floor": 323000,
       "revenueY1Ceiling": 1930000,
-      "revenueY5Floor": 3000000,
+      "revenueY5Floor": 2792000,
       "revenueY5Ceiling": 19900000,
       "shareOfY1Floor": 0.5
     },
@@ -119,7 +119,7 @@
       "name": "Delegate Digital",
       "revenueY1Floor": 246000,
       "revenueY1Ceiling": 1640000,
-      "revenueY5Floor": 1800000,
+      "revenueY5Floor": 1675000,
       "revenueY5Ceiling": 11900000,
       "shareOfY1Floor": 0.4
     },
@@ -128,16 +128,16 @@
       "name": "AdventureCap Holdings",
       "revenueY1Floor": 25000,
       "revenueY1Ceiling": 166000,
-      "revenueY5Floor": 200000,
+      "revenueY5Floor": 186000,
       "revenueY5Ceiling": 1330000,
-      "shareOfY1Floor": 0.0
+      "shareOfY1Floor": 0
     },
     {
       "slug": "grow-campus",
       "name": "Grow Campus",
       "revenueY1Floor": 846000,
       "revenueY1Ceiling": 5620000,
-      "revenueY5Floor": 15500000,
+      "revenueY5Floor": 14421000,
       "revenueY5Ceiling": 102900000,
       "shareOfY1Floor": 1.3
     }
