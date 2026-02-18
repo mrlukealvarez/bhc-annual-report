@@ -1,13 +1,15 @@
-import Link from "next/link";
+import bhbData from "@/../data/comparison/bhb.json";
+import type { ComparisonData } from "@/types/comparison";
+import { ComparisonClient } from "../comparison-client";
+
+const data = bhbData as ComparisonData;
+
+export const metadata = {
+  title: "BHC vs Black Hills & Badlands — BHC Annual Report",
+  description:
+    "Side-by-side comparison of Black Hills Consortium and Black Hills & Badlands Tourism Association — revenue, entities, technology, and impact.",
+};
 
 export default function CompareBHBPage() {
-  return (
-    <main className="min-h-screen p-8 max-w-7xl mx-auto">
-      <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
-        &larr; Back to Home
-      </Link>
-      <h1 className="text-4xl font-bold mb-4">BHC vs Black Hills &amp; Badlands</h1>
-      <p className="text-gray-600">Coming soon — Sprint 231+</p>
-    </main>
-  );
+  return <ComparisonClient data={data} otherComparisonHref="/compare" otherComparisonLabel="BHC vs Elevate Rapid City" />;
 }

@@ -1,0 +1,67 @@
+{
+  "competitorName": "Black Hills & Badlands Tourism Association",
+  "competitorType": "Regional Tourism Marketing Organization",
+  "dataPoints": [
+    {
+      "metric": "Annual Revenue/Budget",
+      "bhcValue": "$66.92M",
+      "competitorValue": "~$3.2M",
+      "winner": "bhc",
+      "note": "20.9x more revenue"
+    },
+    {
+      "metric": "Entities/Divisions",
+      "bhcValue": "13 companies",
+      "competitorValue": "1 division",
+      "winner": "bhc",
+      "note": "Full ecosystem vs single-focus"
+    },
+    {
+      "metric": "Staff",
+      "bhcValue": "51 (255 AI-equivalent)",
+      "competitorValue": "~12",
+      "winner": "bhc",
+      "note": "21.3x effective output"
+    },
+    {
+      "metric": "Technology Platform",
+      "bhcValue": "AI-native SaaS (GrowWise)",
+      "competitorValue": "Basic website + social media",
+      "winner": "bhc"
+    },
+    {
+      "metric": "Revenue Streams",
+      "bhcValue": "60+",
+      "competitorValue": "Tourism marketing fees",
+      "winner": "bhc",
+      "note": "Diversified vs single"
+    },
+    {
+      "metric": "Geographic Focus",
+      "bhcValue": "National + Black Hills",
+      "competitorValue": "Black Hills region",
+      "winner": "equal",
+      "note": "Both serve Black Hills"
+    },
+    {
+      "metric": "5-Year Economic Impact",
+      "bhcValue": "$262.84M",
+      "competitorValue": "~$16M",
+      "winner": "bhc",
+      "note": "16.4x"
+    },
+    {
+      "metric": "Capital Investment",
+      "bhcValue": "$52M raise",
+      "competitorValue": "Grant-funded",
+      "winner": "bhc"
+    },
+    {
+      "metric": "Campus/Real Estate",
+      "bhcValue": "15 acres, $2M+",
+      "competitorValue": "Office only",
+      "winner": "bhc"
+    }
+  ],
+  "summary": "BHC generates 20.9x more revenue while operating 13 entities vs BH&B's single tourism marketing division. BHC's AI-native approach creates 255 AI-equivalent staff from 51 people, with 60+ diversified revenue streams compared to BH&B's single-focus tourism marketing."
+}

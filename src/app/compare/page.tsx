@@ -1,13 +1,15 @@
-import Link from "next/link";
+import elevateData from "@/../data/comparison/elevate.json";
+import type { ComparisonData } from "@/types/comparison";
+import { ComparisonClient } from "./comparison-client";
+
+const data = elevateData as ComparisonData;
+
+export const metadata = {
+  title: "BHC vs Elevate Rapid City — BHC Annual Report",
+  description:
+    "Side-by-side comparison of Black Hills Consortium and Elevate Rapid City — revenue, staff, technology, and economic impact.",
+};
 
 export default function ComparePage() {
-  return (
-    <main className="min-h-screen p-8 max-w-7xl mx-auto">
-      <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
-        &larr; Back to Home
-      </Link>
-      <h1 className="text-4xl font-bold mb-4">BHC vs Elevate Rapid City</h1>
-      <p className="text-gray-600">Coming soon — Sprint 231+</p>
-    </main>
-  );
+  return <ComparisonClient data={data} otherComparisonHref="/compare/bhb" otherComparisonLabel="BHC vs Black Hills & Badlands" />;
 }
