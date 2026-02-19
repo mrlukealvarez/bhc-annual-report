@@ -36,6 +36,11 @@ export interface Entity {
   keyRoles: string[];
   flywheelRole: string;
   flywheelConnection: string;
+  aiProduct?: {
+    name: string;
+    description: string;
+    pricing: string;
+  };
   revenueStreams: RevenueStream[];
   metrics: EntityMetric[];
 }

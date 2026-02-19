@@ -4,10 +4,10 @@
   "dataPoints": [
     {
       "metric": "Annual Revenue/Budget",
-      "bhcValue": "$66.92M",
+      "bhcValue": "$71.59M",
       "competitorValue": "~$3.2M",
       "winner": "bhc",
-      "note": "20.9x more revenue"
+      "note": "22.4x more revenue"
     },
     {
       "metric": "Entities/Divisions",
@@ -31,7 +31,7 @@
     },
     {
       "metric": "Revenue Streams",
-      "bhcValue": "60+",
+      "bhcValue": "262",
       "competitorValue": "Tourism marketing fees",
       "winner": "bhc",
       "note": "Diversified vs single"
@@ -45,10 +45,10 @@
     },
     {
       "metric": "5-Year Economic Impact",
-      "bhcValue": "$262.84M",
+      "bhcValue": "$291.03M",
       "competitorValue": "~$16M",
       "winner": "bhc",
-      "note": "16.4x"
+      "note": "18.2x"
     },
     {
       "metric": "Capital Investment",
@@ -63,5 +63,5 @@
       "winner": "bhc"
     }
   ],
-  "summary": "BHC generates 20.9x more revenue while operating 13 entities vs BH&B's single tourism marketing division. BHC's AI-native approach creates 255 AI-equivalent staff from 51 people, with 60+ diversified revenue streams compared to BH&B's single-focus tourism marketing."
+  "summary": "BHC generates 22.4x more revenue while operating 13 entities vs BH&B's single tourism marketing division. BHC's AI-native approach creates 255 AI-equivalent staff from 51 people, with 262 diversified revenue streams compared to BH&B's single-focus tourism marketing."
 }

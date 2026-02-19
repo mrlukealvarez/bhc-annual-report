@@ -4,10 +4,10 @@
   "dataPoints": [
     {
       "metric": "Annual Revenue/Budget",
-      "bhcValue": "$66.92M",
+      "bhcValue": "$71.59M",
       "competitorValue": "$7.17M",
       "winner": "bhc",
-      "note": "9.3x more revenue"
+      "note": "10x more revenue"
     },
     {
       "metric": "Staff",
@@ -38,7 +38,7 @@
     },
     {
       "metric": "Revenue Streams",
-      "bhcValue": "60+",
+      "bhcValue": "262",
       "competitorValue": "7",
       "winner": "bhc"
     },
@@ -61,5 +61,5 @@
       "winner": "bhc"
     }
   ],
-  "summary": "BHC generates 9.3x more revenue with 18.2x effective output, operating 13 entities vs 1, with 177x the customer base."
+  "summary": "BHC generates 10x more revenue with 18.2x effective output, operating 13 entities vs 1, with 177x the customer base and 262 diversified revenue streams."
 }

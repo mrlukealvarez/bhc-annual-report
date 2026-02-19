@@ -3,28 +3,28 @@
     {
       "id": "growwise",
       "label": "GrowWise",
-      "value": "$59.1M",
+      "value": "$60.5M",
       "color": "#22c55e",
       "description": "Cannabis SaaS revenue engine"
     },
     {
       "id": "auric-labs",
       "label": "Auric Labs",
-      "value": "$4.14M",
+      "value": "$4.24M",
       "color": "#ec4899",
       "description": "7% equity from GrowWise accelerator deals"
     },
     {
       "id": "seed-foundation",
       "label": "Seed Foundation",
-      "value": "$4.14M",
+      "value": "$4.24M",
       "color": "#a855f7",
       "description": "7% equity funds charitable programs"
     },
     {
       "id": "bhc",
       "label": "BHC",
-      "value": "$4.14M",
+      "value": "$4.24M",
       "color": "#1a237e",
       "description": "7% equity funds consortium operations"
     },

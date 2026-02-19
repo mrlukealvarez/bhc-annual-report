@@ -2,7 +2,7 @@
   {
     "label": "Year 1 Revenue",
     "current": 0,
-    "target": 66920000,
+    "target": 71590000,
     "unit": "dollars",
     "category": "revenue",
     "icon": "DollarSign"
@@ -10,7 +10,7 @@
   {
     "label": "Year 5 Revenue",
     "current": 0,
-    "target": 262840000,
+    "target": 291030000,
     "unit": "dollars",
     "category": "revenue",
     "icon": "TrendingUp"
