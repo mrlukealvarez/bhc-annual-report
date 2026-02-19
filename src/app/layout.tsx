@@ -66,7 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ul className="space-y-2 text-sm">
                   <li><Link href="/entity/growwise" className="hover:text-white transition-colors">GrowWise</Link></li>
                   <li><Link href="/entity/auric-labs" className="hover:text-white transition-colors">Auric Labs</Link></li>
-                  <li><Link href="/entity/delegate-iq" className="hover:text-white transition-colors">Delegate Digital</Link></li>
+                  <li><Link href="/entity/delegate-digital" className="hover:text-white transition-colors">Delegate Digital</Link></li>
                 </ul>
               </div>
               <div>

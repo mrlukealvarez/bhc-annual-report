@@ -25,7 +25,7 @@ const entities = [
   { slug: "settle-the-west", name: "Settle the West", tagline: "Remote Worker Relocation Program", color: "#06b6d4", revenueY1: "$470K", category: "Community" },
   { slug: "auric-labs", name: "Auric Labs", tagline: "AI-Native Startup Accelerator", color: "#ec4899", revenueY1: "$410K", category: "Technology" },
   { slug: "bhc", name: "Black Hills Consortium", tagline: "Regional Coordination & Holding Company", color: "#1a237e", revenueY1: "$3.1M", category: "Community" },
-  { slug: "delegate-iq", name: "Delegate Digital", tagline: "B2B Digital Services & AI Consulting", color: "#6366f1", revenueY1: "$310K", category: "Technology" },
+  { slug: "delegate-digital", name: "Delegate Digital", tagline: "B2B Digital Services & AI Consulting", color: "#6366f1", revenueY1: "$310K", category: "Technology" },
   { slug: "adventurecap", name: "AdventureCap Holdings", tagline: "Adventure Tourism Asset Holdings", color: "#14b8a6", revenueY1: "$130K", category: "Real Estate" },
   { slug: "grow-campus", name: "Grow Campus", tagline: "15-Acre Innovation Campus", color: "#f59e0b", revenueY1: "$390K", category: "Real Estate" },
 ];

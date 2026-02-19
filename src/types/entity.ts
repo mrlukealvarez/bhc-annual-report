@@ -9,7 +9,7 @@ export type EntitySlug =
   | "settle-the-west"
   | "auric-labs"
   | "bhc"
-  | "delegate-iq"
+  | "delegate-digital"
   | "adventurecap"
   | "grow-campus";
 

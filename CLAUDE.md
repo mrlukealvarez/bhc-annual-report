@@ -56,7 +56,7 @@
 ```
 growwise, outpost-media, seed-foundation, seed-academy, the-cult,
 the-op, pass-creek, settle-the-west, auric-labs, bhc,
-delegate-iq, adventurecap, grow-campus
+delegate-digital, adventurecap, grow-campus
 ```
 
 ---
