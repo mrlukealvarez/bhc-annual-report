@@ -229,7 +229,7 @@ export function FinancialsClient({
               Behind the Ecosystem
             </h1>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              Complete financial breakdown of 13 entities, V5 floor to V4
+              Complete financial breakdown of 13 entities, V6 floor to V4
               ceiling projections, pricing model, and the 21% perpetual
               flywheel that sustains everything.
             </p>
@@ -359,7 +359,7 @@ export function FinancialsClient({
             Entity Revenue Breakdown
           </h2>
           <p className="text-center text-gray-500 mb-12">
-            Year 1 revenue by entity &mdash; V5 Floor vs V4 Ceiling
+            Year 1 revenue by entity &mdash; V6 Floor vs V4 Ceiling
           </p>
         </FadeIn>
         <FadeIn delay={0.2}>
@@ -391,7 +391,7 @@ export function FinancialsClient({
                     name: string | undefined
                   ) => [
                     formatCurrency(value ?? 0),
-                    (name ?? "") === "floor" ? "V5 Floor" : "V4 Ceiling",
+                    (name ?? "") === "floor" ? "V6 Floor" : "V4 Ceiling",
                   ]}
                   labelFormatter={(label) => {
                     const labelStr = String(label ?? "");
@@ -405,7 +405,7 @@ export function FinancialsClient({
                 />
                 <Legend
                   formatter={(value: string) =>
-                    value === "floor" ? "V5 Floor" : "V4 Ceiling"
+                    value === "floor" ? "V6 Floor" : "V4 Ceiling"
                   }
                 />
                 <Bar

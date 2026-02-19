@@ -15,19 +15,19 @@ import {
 
 // Inline entity data for homepage (13 entities with verified numbers)
 const entities = [
-  { slug: "growwise", name: "GrowWise", tagline: "AI-Native Cannabis Operations Platform", color: "#22c55e", revenueY1: "$59.1M", category: "Technology" },
-  { slug: "outpost-media", name: "Outpost Media", tagline: "Cannabis-First Multi-Channel Media Network", color: "#3b82f6", revenueY1: "$1.46M", category: "Media" },
-  { slug: "seed-foundation", name: "Seed Foundation", tagline: "Charitable Foundation for Regional Impact", color: "#a855f7", revenueY1: "$1.63M", category: "Community" },
-  { slug: "seed-academy", name: "Seed Academy", tagline: "AI-Powered Workforce Training Academy", color: "#8b5cf6", revenueY1: "$1.06M", category: "Education" },
-  { slug: "the-cult", name: "THE CULT", tagline: "Annual Convention & Events Brand", color: "#ef4444", revenueY1: "$191K", category: "Community" },
-  { slug: "the-op", name: "THE OP", tagline: "Community Cafe & Merchandise Hub", color: "#f97316", revenueY1: "$446K", category: "Community" },
-  { slug: "pass-creek", name: "Pass Creek Holdings", tagline: "Black Hills Real Estate Portfolio", color: "#eab308", revenueY1: "$838K", category: "Real Estate" },
-  { slug: "settle-the-west", name: "Settle the West", tagline: "Remote Worker Relocation Program", color: "#06b6d4", revenueY1: "$455K", category: "Community" },
-  { slug: "auric-labs", name: "Auric Labs", tagline: "AI-Native Startup Accelerator", color: "#ec4899", revenueY1: "$300K", category: "Technology" },
-  { slug: "bhc", name: "Black Hills Consortium", tagline: "Regional Coordination & Holding Company", color: "#1a237e", revenueY1: "$290K", category: "Community" },
-  { slug: "delegate-iq", name: "Delegate Digital", tagline: "B2B Digital Services & AI Consulting", color: "#6366f1", revenueY1: "$246K", category: "Technology" },
-  { slug: "adventurecap", name: "AdventureCap Holdings", tagline: "Adventure Tourism Asset Holdings", color: "#14b8a6", revenueY1: "$25K", category: "Community" },
-  { slug: "grow-campus", name: "Grow Campus", tagline: "15-Acre Innovation Campus", color: "#f59e0b", revenueY1: "$846K", category: "Real Estate" },
+  { slug: "growwise", name: "GrowWise", tagline: "AI-Native Cannabis Operations Platform", color: "#22c55e", revenueY1: "$60.52M", category: "Technology" },
+  { slug: "outpost-media", name: "Outpost Media", tagline: "Cannabis-First Multi-Channel Media Network", color: "#3b82f6", revenueY1: "$1.78M", category: "Media" },
+  { slug: "seed-foundation", name: "Seed Foundation", tagline: "Charitable Foundation for Regional Impact", color: "#a855f7", revenueY1: "$1.89M", category: "Community" },
+  { slug: "seed-academy", name: "Seed Academy", tagline: "AI-Powered Workforce Training Academy", color: "#8b5cf6", revenueY1: "$1.21M", category: "Education" },
+  { slug: "the-cult", name: "THE CULT", tagline: "Annual Convention & Events Brand", color: "#ef4444", revenueY1: "$270K", category: "Community" },
+  { slug: "the-op", name: "THE OP", tagline: "Community Cafe & Merchandise Hub", color: "#f97316", revenueY1: "$490K", category: "Community" },
+  { slug: "pass-creek", name: "Pass Creek Holdings", tagline: "Black Hills Real Estate Portfolio", color: "#eab308", revenueY1: "$610K", category: "Real Estate" },
+  { slug: "settle-the-west", name: "Settle the West", tagline: "Remote Worker Relocation Program", color: "#06b6d4", revenueY1: "$470K", category: "Community" },
+  { slug: "auric-labs", name: "Auric Labs", tagline: "AI-Native Startup Accelerator", color: "#ec4899", revenueY1: "$410K", category: "Technology" },
+  { slug: "bhc", name: "Black Hills Consortium", tagline: "Regional Coordination & Holding Company", color: "#1a237e", revenueY1: "$3.1M", category: "Community" },
+  { slug: "delegate-iq", name: "Delegate Digital", tagline: "B2B Digital Services & AI Consulting", color: "#6366f1", revenueY1: "$310K", category: "Technology" },
+  { slug: "adventurecap", name: "AdventureCap Holdings", tagline: "Adventure Tourism Asset Holdings", color: "#14b8a6", revenueY1: "$130K", category: "Real Estate" },
+  { slug: "grow-campus", name: "Grow Campus", tagline: "15-Acre Innovation Campus", color: "#f59e0b", revenueY1: "$390K", category: "Real Estate" },
 ];
 
 export default function HomePage() {
@@ -46,7 +46,7 @@ export default function HomePage() {
           </FadeIn>
           <FadeIn delay={0.2}>
             <p className="text-xl sm:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">
-              $52M Capital Raise &nbsp;|&nbsp; $66.92M&ndash;$439.5M Year 1 Revenue
+              $52M Capital Raise &nbsp;|&nbsp; $71.59M&ndash;$439.5M Year 1 Revenue
             </p>
           </FadeIn>
           <FadeIn delay={0.4}>
@@ -75,7 +75,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8" staggerDelay={0.1}>
             {[
-              { end: 66.92, prefix: "$", suffix: "M", decimals: 2, label: "Revenue Y1", sublabel: "V5 Floor" },
+              { end: 71.59, prefix: "$", suffix: "M", decimals: 2, label: "Revenue Y1", sublabel: "V6 Floor" },
               { end: 13, label: "Entities", sublabel: "Integrated Ecosystem" },
               { end: 18786, label: "CRM Accounts", sublabel: "Active Pipeline" },
               { end: 51, label: "Staff", sublabel: "Output like 255 with AI" },
@@ -130,7 +130,7 @@ export default function HomePage() {
                           <span className="text-lg font-bold" style={{ color: entity.color }}>
                             {entity.revenueY1}
                           </span>
-                          <span className="text-xs text-gray-400">Y1 V5 Floor</span>
+                          <span className="text-xs text-gray-400">Y1 V6 Floor</span>
                         </div>
                       </div>
                     </div>
@@ -156,7 +156,7 @@ export default function HomePage() {
           <FadeIn delay={0.2}>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-10">
               {[
-                { step: "1", label: "GrowWise Revenue", value: "$59.1M", color: "#22c55e" },
+                { step: "1", label: "GrowWise Revenue", value: "$60.52M", color: "#22c55e" },
                 { step: "2", label: "21% Equity Flow", value: "$12.41M", color: "#059669" },
                 { step: "3", label: "Funds Operations", value: "13 Entities", color: "#06b6d4" },
                 { step: "4", label: "Content & Growth", value: "Attracts More", color: "#3b82f6" },
@@ -199,7 +199,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-bold mb-6 text-emerald-400">Black Hills Consortium</h3>
                 <div className="space-y-4">
                   {[
-                    { label: "Revenue", value: "$66.92M" },
+                    { label: "Revenue", value: "$71.59M" },
                     { label: "Entities", value: "13" },
                     { label: "Staff", value: "51 (255 AI-equiv)" },
                     { label: "CRM", value: "18,786 accounts" },

@@ -350,7 +350,7 @@ export function EntityDetailClient({ entity, relatedEntities }: EntityDetailClie
               Revenue Projection
             </h2>
             <p className="text-gray-500 mb-8">
-              Year 1 &rarr; Year 5 &mdash; V5 Floor to V4 Ceiling range
+              Year 1 &rarr; Year 5 &mdash; V6 Floor to V4 Ceiling range
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
@@ -394,7 +394,7 @@ export function EntityDetailClient({ entity, relatedEntities }: EntityDetailClie
                   <Area
                     type="monotone"
                     dataKey="floor"
-                    name="V5 Floor"
+                    name="V6 Floor"
                     stroke={entity.color}
                     fill={entity.color}
                     fillOpacity={0.3}

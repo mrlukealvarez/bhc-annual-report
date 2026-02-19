@@ -63,10 +63,10 @@ delegate-iq, adventurecap, grow-campus
 
 ## Verified Numbers
 
-| Metric | V5 Floor | V4 Ceiling |
+| Metric | V6 Floor | V4 Ceiling |
 |--------|----------|------------|
-| Revenue Y1 | $66.92M | $439.5M |
-| Revenue Y5 | $262.84M | $1.65B |
+| Revenue Y1 | $71.59M | $439.5M |
+| Revenue Y5 | $291.03M | $1.65B |
 | Valuation Y1 | $523M-$783M | -- |
 | Valuation Y5 | $1.92B-$2.89B | -- |
 
