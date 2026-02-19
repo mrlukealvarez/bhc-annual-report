@@ -1,13 +1,12 @@
-import Link from "next/link";
+import flywheelData from "@/../data/flywheel.json";
+import entitiesData from "@/../data/entities.json";
+import { FlywheelClient } from "./flywheel-client";
+
+export const metadata = {
+  title: "The 21% Perpetual Flywheel — BHC Annual Report",
+  description: "Interactive flywheel visualization showing how 13 entities create compounding value",
+};
 
 export default function FlywheelPage() {
-  return (
-    <main className="min-h-screen p-8 max-w-7xl mx-auto">
-      <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
-        &larr; Back to Home
-      </Link>
-      <h1 className="text-4xl font-bold mb-4">Interactive Flywheel</h1>
-      <p className="text-gray-600">Coming soon — Sprint 231+</p>
-    </main>
-  );
+  return <FlywheelClient flywheel={flywheelData} entities={entitiesData} />;
 }

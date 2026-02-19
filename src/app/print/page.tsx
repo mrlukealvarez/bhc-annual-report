@@ -1,13 +1,27 @@
-import Link from "next/link";
+import entitiesData from "@/../data/entities.json";
+import metricsData from "@/../data/metrics.json";
+import financialsData from "@/../data/financials.json";
+import investorsData from "@/../data/investors.json";
+import teamData from "@/../data/team.json";
+import goalsData from "@/../data/goals.json";
+import flywheelData from "@/../data/flywheel.json";
+import { PrintClient } from "./print-client";
+
+export const metadata = {
+  title: "Print Report — BHC Annual Report 2026",
+  description: "Printer-friendly version of the complete BHC Annual Report",
+};
 
 export default function PrintPage() {
   return (
-    <main className="min-h-screen p-8 max-w-7xl mx-auto">
-      <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
-        &larr; Back to Home
-      </Link>
-      <h1 className="text-4xl font-bold mb-4">Print Version</h1>
-      <p className="text-gray-600">Coming soon — Sprint 231+</p>
-    </main>
+    <PrintClient
+      entities={entitiesData}
+      metrics={metricsData}
+      financials={financialsData}
+      investors={investorsData}
+      team={teamData}
+      goals={goalsData}
+      flywheel={flywheelData}
+    />
   );
 }
