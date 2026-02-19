@@ -17,7 +17,7 @@ import {
 // Helpers
 // ---------------------------------------------------------------------------
 
-/** Extract a numeric value from strings like "$66.92M", "51", "60+", "~$3.2M", "18,786" */
+/** Extract a numeric value from strings like "$71.59M", "51", "60+", "~$3.2M", "18,786" */
 function extractNumber(val: string): number | null {
   const cleaned = val.replace(/[$,~+]/g, "").trim();
   const num = parseFloat(cleaned);
