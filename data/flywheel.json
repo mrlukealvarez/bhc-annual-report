@@ -8,8 +8,8 @@
       "description": "Cannabis SaaS revenue engine"
     },
     {
-      "id": "auric-labs",
-      "label": "Auric Labs",
+      "id": "wildflower-labs",
+      "label": "Wildflower Labs",
       "value": "$4.24M",
       "color": "#ec4899",
       "description": "7% equity from FlowBot accelerator deals"
@@ -60,7 +60,7 @@
   "connections": [
     {
       "from": "growwise",
-      "to": "auric-labs",
+      "to": "wildflower-labs",
       "label": "7% equity",
       "type": "equity"
     },

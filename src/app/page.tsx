@@ -23,7 +23,7 @@ const entities = [
   { slug: "the-op", name: "THE OP", tagline: "Community Cafe & Merchandise Hub", color: "#f97316", revenueY1: "$490K", category: "Community" },
   { slug: "pass-creek", name: "Pass Creek Holdings", tagline: "Black Hills Real Estate Portfolio", color: "#eab308", revenueY1: "$610K", category: "Real Estate" },
   { slug: "settle-the-west", name: "Settle the West", tagline: "Remote Worker Relocation Program", color: "#06b6d4", revenueY1: "$470K", category: "Community" },
-  { slug: "auric-labs", name: "Auric Labs", tagline: "AI-Native Startup Accelerator", color: "#ec4899", revenueY1: "$410K", category: "Technology" },
+  { slug: "wildflower-labs", name: "Wildflower Labs", tagline: "AI-Native Startup Accelerator", color: "#ec4899", revenueY1: "$410K", category: "Technology" },
   { slug: "bhc", name: "Black Hills Consortium", tagline: "Regional Coordination & Holding Company", color: "#1a237e", revenueY1: "$3.1M", category: "Community" },
   { slug: "delegate-digital", name: "Delegate Digital", tagline: "B2B Digital Services & AI Consulting", color: "#6366f1", revenueY1: "$310K", category: "Technology" },
   { slug: "adventurecap", name: "AdventureCap Holdings", tagline: "Adventure Tourism Asset Holdings", color: "#14b8a6", revenueY1: "$130K", category: "Real Estate" },
@@ -150,7 +150,7 @@ export default function HomePage() {
               The <EmeraldShimmer>21% Perpetual Flywheel</EmeraldShimmer>
             </h2>
             <p className="text-gray-400 mb-10 max-w-2xl mx-auto">
-              FlowBot distributes 21% of revenue — 7% each to Auric Labs, Seed Foundation, and BHC — creating $12.41M in automatic downstream funding that powers the entire ecosystem.
+              FlowBot distributes 21% of revenue — 7% each to Wildflower Labs, Seed Foundation, and BHC — creating $12.41M in automatic downstream funding that powers the entire ecosystem.
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>

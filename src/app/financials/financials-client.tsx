@@ -53,7 +53,7 @@ interface FinancialsData {
     capitalRaise: number;
     flywheelPercentage: number;
     flywheelDistribution: {
-      auricLabs: number;
+      wildflowerLabs: number;
       seedFoundation: number;
       bhc: number;
     };
@@ -196,8 +196,8 @@ export function FinancialsClient({
   // Flywheel recipients
   const flywheelRecipients = [
     {
-      name: "Auric Labs",
-      pct: aggregate.flywheelDistribution.auricLabs,
+      name: "Wildflower Labs",
+      pct: aggregate.flywheelDistribution.wildflowerLabs,
       desc: "AI-native startup accelerator — funds portfolio companies and innovation programs",
     },
     {
