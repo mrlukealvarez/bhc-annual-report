@@ -514,10 +514,10 @@ export function FinancialsClient({
                 className="text-emerald-400"
                 duration={2}
               />{" "}
-              <span className="text-white">GrowWise Equity Distribution</span>
+              <span className="text-white">FlowBot Equity Distribution</span>
             </h2>
             <p className="text-gray-400 max-w-xl mx-auto">
-              Every dollar of GrowWise equity distributes 7% each to three
+              Every dollar of FlowBot equity distributes 7% each to three
               ecosystem pillars, creating a self-sustaining growth engine.
             </p>
           </div>
@@ -554,7 +554,7 @@ export function FinancialsClient({
       <section className="py-20 px-6 bg-white">
         <FadeIn>
           <h2 className="text-3xl font-bold text-center text-[#0f172a] mb-2">
-            GrowWise Pricing Tiers
+            FlowBot Pricing Tiers
           </h2>
           <p className="text-center text-gray-500 mb-12">
             V4 pricing model powering the revenue engine

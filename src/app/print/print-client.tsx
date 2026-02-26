@@ -410,7 +410,7 @@ export function PrintClient({
           </table>
 
           <h3 className="text-lg font-semibold mb-3">
-            GrowWise Pricing Tiers
+            FlowBot Pricing Tiers
           </h3>
           <table className="border border-gray-300 text-sm w-full">
             <thead>

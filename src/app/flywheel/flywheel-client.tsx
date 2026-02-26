@@ -402,7 +402,7 @@ export function FlywheelClient({ flywheel, entities }: FlywheelClientProps) {
                 className="text-4xl font-bold text-emerald-400"
               />
               <p className="text-gray-400 mt-2 text-sm font-medium">
-                GrowWise Y1 Revenue
+                FlowBot Y1 Revenue
               </p>
             </NavyGlow>
           </StaggerItem>

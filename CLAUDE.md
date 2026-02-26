@@ -55,7 +55,7 @@
 
 ```
 growwise, outpost-media, seed-foundation, seed-academy, the-cult,
-the-op, pass-creek, settle-the-west, auric-labs, bhc,
+the-op, pass-creek, settle-the-west, wildflower-labs, bhc,
 delegate-digital, adventurecap, grow-campus
 ```
 

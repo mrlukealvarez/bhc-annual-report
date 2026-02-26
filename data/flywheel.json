@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "growwise",
-      "label": "GrowWise",
+      "label": "FlowBot",
       "value": "$60.5M",
       "color": "#22c55e",
       "description": "Cannabis SaaS revenue engine"
@@ -12,7 +12,7 @@
       "label": "Auric Labs",
       "value": "$4.24M",
       "color": "#ec4899",
-      "description": "7% equity from GrowWise accelerator deals"
+      "description": "7% equity from FlowBot accelerator deals"
     },
     {
       "id": "seed-foundation",

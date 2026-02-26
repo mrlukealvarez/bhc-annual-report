@@ -15,7 +15,7 @@ import {
 
 // Inline entity data for homepage (13 entities with verified numbers)
 const entities = [
-  { slug: "growwise", name: "GrowWise", tagline: "AI-Native Cannabis Operations Platform", color: "#22c55e", revenueY1: "$60.52M", category: "Technology" },
+  { slug: "growwise", name: "FlowBot", tagline: "AI-Native Cannabis Operations Platform", color: "#22c55e", revenueY1: "$60.52M", category: "Technology" },
   { slug: "outpost-media", name: "Outpost Media", tagline: "Cannabis-First Multi-Channel Media Network", color: "#3b82f6", revenueY1: "$1.78M", category: "Media" },
   { slug: "seed-foundation", name: "Seed Foundation", tagline: "Charitable Foundation for Regional Impact", color: "#a855f7", revenueY1: "$1.89M", category: "Community" },
   { slug: "seed-academy", name: "Seed Academy", tagline: "AI-Powered Workforce Training Academy", color: "#8b5cf6", revenueY1: "$1.21M", category: "Education" },
@@ -150,13 +150,13 @@ export default function HomePage() {
               The <EmeraldShimmer>21% Perpetual Flywheel</EmeraldShimmer>
             </h2>
             <p className="text-gray-400 mb-10 max-w-2xl mx-auto">
-              GrowWise distributes 21% of revenue — 7% each to Auric Labs, Seed Foundation, and BHC — creating $12.41M in automatic downstream funding that powers the entire ecosystem.
+              FlowBot distributes 21% of revenue — 7% each to Auric Labs, Seed Foundation, and BHC — creating $12.41M in automatic downstream funding that powers the entire ecosystem.
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-10">
               {[
-                { step: "1", label: "GrowWise Revenue", value: "$60.52M", color: "#22c55e" },
+                { step: "1", label: "FlowBot Revenue", value: "$60.52M", color: "#22c55e" },
                 { step: "2", label: "21% Equity Flow", value: "$12.41M", color: "#059669" },
                 { step: "3", label: "Funds Operations", value: "13 Entities", color: "#06b6d4" },
                 { step: "4", label: "Content & Growth", value: "Attracts More", color: "#3b82f6" },

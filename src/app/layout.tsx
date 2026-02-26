@@ -66,8 +66,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <h3 className="text-white font-semibold mb-3">Technology</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="/entity/growwise" className="hover:text-white transition-colors">GrowWise</Link></li>
-                  <li><Link href="/entity/auric-labs" className="hover:text-white transition-colors">Auric Labs</Link></li>
+                  <li><Link href="/entity/growwise" className="hover:text-white transition-colors">FlowBot</Link></li>
+                  <li><Link href="/entity/wildflower-labs" className="hover:text-white transition-colors">Wildflower Labs</Link></li>
                   <li><Link href="/entity/delegate-digital" className="hover:text-white transition-colors">Delegate Digital</Link></li>
                 </ul>
               </div>

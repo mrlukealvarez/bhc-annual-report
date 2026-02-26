@@ -11,7 +11,7 @@
     "capitalRaise": 52000000,
     "flywheelPercentage": 21,
     "flywheelDistribution": {
-      "auricLabs": 7,
+      "wildflowerLabs": 7,
       "seedFoundation": 7,
       "bhc": 7
     }
@@ -26,7 +26,7 @@
   "entityBreakdown": [
     {
       "slug": "growwise",
-      "name": "GrowWise",
+      "name": "FlowBot",
       "revenueY1Floor": 60520000,
       "revenueY1Ceiling": 394500000,
       "revenueY5Floor": 202350000,
@@ -97,8 +97,8 @@
       "shareOfY1Floor": 0.7
     },
     {
-      "slug": "auric-labs",
-      "name": "Auric Labs",
+      "slug": "wildflower-labs",
+      "name": "Wildflower Labs",
       "revenueY1Floor": 410000,
       "revenueY1Ceiling": 2000000,
       "revenueY5Floor": 3720000,

@@ -7,7 +7,7 @@ export type EntitySlug =
   | "the-op"
   | "pass-creek"
   | "settle-the-west"
-  | "auric-labs"
+  | "wildflower-labs"
   | "bhc"
   | "delegate-digital"
   | "adventurecap"
