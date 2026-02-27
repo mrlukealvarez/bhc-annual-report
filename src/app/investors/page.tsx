@@ -4,7 +4,7 @@ import { InvestorsClient } from "./investors-client";
 export const metadata = {
   title: "Investment Opportunity — BHC Annual Report",
   description:
-    "Explore the $52M capital raise opportunity with the Black Hills Consortium",
+    "Explore the $105M capital raise opportunity with the Black Hills Consortium",
 };
 
 export default function InvestorsPage() {

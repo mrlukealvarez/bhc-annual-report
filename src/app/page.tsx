@@ -46,7 +46,7 @@ export default function HomePage() {
           </FadeIn>
           <FadeIn delay={0.2}>
             <p className="text-xl sm:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">
-              $52M Capital Raise &nbsp;|&nbsp; $71.59M&ndash;$439.5M Year 1 Revenue
+              $105M Capital Raise &nbsp;|&nbsp; $71.59M&ndash;$439.5M Year 1 Revenue
             </p>
           </FadeIn>
           <FadeIn delay={0.4}>

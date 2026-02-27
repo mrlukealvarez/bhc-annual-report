@@ -71,7 +71,7 @@ delegate-digital, adventurecap, grow-campus
 | Valuation Y5 | $1.92B-$2.89B | -- |
 
 **V4 Pricing:** Starter $699 | Solo $1,299 | Growth $1,799/loc | Enterprise $2,499/loc | MSO $2,499/loc
-**Capital Raise:** $52M | **Entities:** 13 | **CRM:** 18,786 accounts
+**Capital Raise:** $105M | **Entities:** 13 | **CRM:** 18,786 accounts
 
 ---
 

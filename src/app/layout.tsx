@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "BHC Annual Report 2026 | Black Hills Consortium",
-  description: "13 entities. $52M capital raise. $71.59M\u2013$439.5M Year 1 revenue. Interactive annual report from the Black Hills Consortium.",
+  description: "13 entities. $105M capital raise. $71.59M\u2013$439.5M Year 1 revenue. Interactive annual report from the Black Hills Consortium.",
   openGraph: {
     title: "BHC Annual Report 2026",
     description: "Interactive annual report from the Black Hills Consortium \u2014 13 entities building Rural America\u2019s future.",
